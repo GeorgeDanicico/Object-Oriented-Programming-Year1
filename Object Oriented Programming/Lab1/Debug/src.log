@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\a1-GeorgeDanicico\src\main.c(49,8): warning C4013: 'memset' undefined; assuming extern returning int
+  src.vcxproj -> C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\a1-GeorgeDanicico\src\Debug\src.exe
