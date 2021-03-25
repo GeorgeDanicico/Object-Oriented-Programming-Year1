@@ -1,0 +1,10 @@
+Games Night;A very beautiful night with games;10/10/10/10/2020;2305;www.link.com
+Help Day;Help the kids!;10/10/10/10/2020;128;www.link.com
+Carriers;The place where you can find a job;12/30/30/6/2020;235;www.link.com
+Beer pong;Try to win the game!;10/10/10/10/2020;233;www.link.com
+Basketball Tournament;The best team wins!;14/30/10/10/2020;2102;www.link.com
+PS4 Tournament;The best player wins!;7/20/1/11/2021;1209;www.link.com
+XBOX Tournament;The best player wins!;17/30/11/12/2021;641;www.link.com
+Agar.io;Eat worms!;23/30/20/12/2022;302;www.link.com
+White Night;No sleeping!;12/30/20/6/2020;303;www.link.com
+Running for charity;All the money will be donated.;23/30/20/12/2022;1230;www.charity.com
