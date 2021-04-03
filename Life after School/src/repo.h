@@ -5,15 +5,16 @@ typedef Event TElem;
 
 class Repository {
 private:
-	DynamicVector<TElem>& dynamicVector; // this is the dynamic array.
+    DynamicVector<TElem>& dynamicVector; // this is the dynamic array.
 	std::string file_name;
 
 public:
+
 	// constructor
 	Repository(DynamicVector<TElem>& dV, const std::string& file_name);
 	// copy constructor
 
-//    Repository(const Repository &repo);
+    Repository(const Repository &repo);
 
 	~Repository();
 

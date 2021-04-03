@@ -3,8 +3,7 @@
 
 class UI{
 private:
-    Service& admin_service;
-    Service& user_service;
+    Service& service;
 
     static void entry_menu();
 
@@ -25,7 +24,7 @@ private:
     void createUI();
     void listUI();
 public:
-    explicit UI(Service& admin_serv, Service& user_serv):admin_service{admin_serv}, user_service{user_serv}{}
+    UI(Service& service): service{service}{}
 
     ~UI();
 

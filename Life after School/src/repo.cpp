@@ -14,10 +14,9 @@ Repository::Repository(DynamicVector<TElem>& dV ,const std::string& file_name):d
         this->loadFromFile();
 }
 
-//Repository::Repository(const Repository &repo) {
-//        this->dynamicVector = repo.dynamicVector;
-//        this->file_name = repo.file_name;
-//}
+Repository::Repository(const Repository &repo):dynamicVector(repo.dynamicVector) {
+        this->file_name = repo.file_name;
+}
 
 Repository::~Repository()= default;
 
@@ -106,3 +105,4 @@ fout.close();
 
 
 }
+

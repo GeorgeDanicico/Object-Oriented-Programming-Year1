@@ -58,7 +58,7 @@ void DynamicVector<T>::resize() {
 	T* copy_elements = new T[2 * this->capacity];
 	for (int index = 0; index < this->length; index++) {
 		// We will generate a new copy of the element
-		T copy_element = (this->elements[index]);
+		T copy_element = this->elements[index];
 		copy_elements[index] = copy_element;
 	}
     this->capacity *= 2;
@@ -69,11 +69,12 @@ void DynamicVector<T>::resize() {
 template<typename T>
 DynamicVector<T> &DynamicVector<T>::operator=(const DynamicVector<T> &dynamicVectorCopy) {
 	T* copy_elements = new T[dynamicVectorCopy.capacity];
-	for (int index = 0; index < this->length; index++) {
+	for (int index = 0; index < dynamicVectorCopy.length; index++) {
 		// We will generate a new copy of the element
-		T copy_element = (dynamicVectorCopy.elements[index]);
+		T copy_element = dynamicVectorCopy.elements[index];
 		copy_elements[index] = copy_element;
 	}
+	this->length = dynamicVectorCopy.length;
 	this->capacity = dynamicVectorCopy.capacity;
 	delete[] this->elements;
 	this->elements = copy_elements;

@@ -14,16 +14,16 @@ int main()
     all_tests();
 
     std::string file = "../events2.txt";
-    std::string user_file;
+    std::string user_file = "../event_list.txt";
+    std::string empty_file;
     DynamicVector<TElem> dv1, dv2;
     Repository admin_repo{dv1, file};
-    Service admin_service{admin_repo};
-
     Repository user_repo{dv2, user_file};
-    Service user_service{user_repo};
-    UI* ui = new UI(admin_service, user_service);
-    ui->start_application();
-    delete ui;
+
+    Service service{admin_repo, user_repo};
+
+    UI ui{service};
+    ui.start_application();
 
     return 0;
 }

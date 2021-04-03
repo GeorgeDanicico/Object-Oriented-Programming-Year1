@@ -18,7 +18,7 @@ void UI::print_menu_admin() {
     std::cout<<"\t-> add Event.\n";
     std::cout<<"\t-> delete Event.\n";
     std::cout<<"\t-> update Event.\n";
-    std::cout<<"\t-> see all Event.\n";
+    std::cout<<"\t-> see all Events.\n";
     std::cout<<"\t-> exit.\n";
     std::cout<<"\n";
 }
@@ -28,7 +28,7 @@ void UI::print_menu_user() {
     std::cout<<"\t->create a new list of Events.\n";
     std::cout<<"\t->list available Events.\n";
     std::cout<<"\t->delete Event if you do not want to attend.\n";
-    std::cout<<"\t->see all your events.\n";
+    std::cout<<"\t->show my list to see your events.\n";
     std::cout<<"\t->exit.\n";
 }
 
@@ -71,7 +71,6 @@ void UI::admin_UI() {
             else if (admin_command == "see")
                 this->seeUI("admin");
             else if (admin_command == "exit") {
-                this->user_service.clear(this->admin_service);
                 break;
             }
             else
@@ -138,7 +137,7 @@ void UI::addUI() {
 
     Date::validDate(hour, minutes, day, month, year);
     Date date2{std::stoi(hour), std::stoi(minutes), std::stoi(day), std::stoi(month), std::stoi(year)};
-    if(this->admin_service.addServiceElement(title, description, date2, people, link)){
+    if(this->service.addServiceElement(title, description, date2, people, link, "admin")){
         std::cout<<"Event added succesfully!\n";
     }else{
         std::cout<<"Something wrong has occured.\n";
@@ -149,14 +148,14 @@ void UI::deleteUI(std::string mode) {
     std::string title;
     title = this->readLine("title>");
 
-    Service service_pointer = (mode == "admin" ? this->admin_service : this->user_service);
+    Service service_pointer = (mode == "admin" ? this->service : this->service);
 
-    if(!service_pointer.deleteServiceElement(title)){
+    if(!service_pointer.deleteServiceElement(title, mode)){
         throw std::exception();
     }
     else{
         if(mode == "user"){
-            this->admin_service.incdecPeople(title, -1);
+            this->service.incdecPeople(title, -1, "admin");
         }
         std::cout<<"Deleted successfully!\n";
     }
@@ -187,7 +186,7 @@ void UI::updateUI() {
         date = date2;
     }
     else throw std::exception();
-    if(!this->admin_service.updateServiceElement(title, field, date, people))
+    if(!this->service.updateServiceElement(title, field, date, people, "admin"))
         throw std::exception();
     else std::cout<<"Updated successfully!\n";
 
@@ -195,29 +194,29 @@ void UI::updateUI() {
 void UI::seeUI(std::string mode) {
     // In order to simplify, service_pointer will keep the address of either the user service
     // or the admin service, depending on the value of the variable mode.
-    Service service_pointer = (mode == "user" ? this->user_service : this->admin_service);
+//    if(mode == "user") service_pointer = this->service;
+//    else service_pointer = this->service;
 
-//    if(mode == "user") service_pointer = this->user_service;
-//    else service_pointer = this->admin_service;
+    TElem *copied_elements = this->service.seeAllEvents(mode);
 
-    TElem *copied_elements = service_pointer.seeAllEvents();
-
-    if(service_pointer.getRepo().getRepoSize() == 0){
+    if(this->service.getRepo(mode).getRepoSize() == 0){
         std::cout << "There are no events registered.\n";
         return;
     }
 
-    for (int index = 0; index < service_pointer.getRepo().getRepoSize(); index++) {
+    for (int index = 0; index < this->service.getRepo(mode).getRepoSize(); index++) {
         std::cout << index + 1 <<". "<< copied_elements[index];
     }
 }
 
 void UI::createUI() {
-    this->user_service.clear(this->admin_service);
+    // this function can be user only by the user service!
+    this->service.clear(this->service, "user");
     std::cout << "You can create a new list.\n";
 }
 
 void UI::listUI() {
+    // This function is also used only by the user
     std::string month;
     std::cout << "Enter month>";
     std::getline(std::cin, month);
@@ -226,13 +225,14 @@ void UI::listUI() {
     int events_length = 0;
     // If the month is empty we list all the events.
     if(month.empty()) {
-        events_length = this->admin_service.getRepo().getRepoSize();
-        copied_elements = this->admin_service.sortChronologically(this->admin_service.seeAllEvents(), events_length);
+        events_length = this->service.getRepo("admin").getRepoSize();
+        copied_elements = this->service.seeAllEvents("admin");
+        copied_elements = this->service.sortChronologically(copied_elements, events_length);
     }
     else{
         // If not, we apply a filtering.
-        copied_elements = this->admin_service.filterEvents(month, events_length);
-        copied_elements = this->admin_service.sortChronologically(copied_elements, events_length);
+        copied_elements = this->service.filterEvents(month, events_length, "admin");
+        copied_elements = this->service.sortChronologically(copied_elements, events_length);
     }
     if(events_length == 0){
         std::cout << "Unfortunately there are no upcoming events.\n";
@@ -255,14 +255,17 @@ void UI::listUI() {
                 break;
             } else if (my_response == "yes") {
                 // After adding the event, we need to update the number of people that are going to that event
-                if (this->user_service.addServiceElement(copied_elements[index].getTitle(),
-                                                         copied_elements[index].getDescription(),
-                                                         copied_elements[index].getDate(),
+                if (this->service.addServiceElement(copied_elements[index].getTitle(),
+                                                    copied_elements[index].getDescription(),
+                                                    copied_elements[index].getDate(),
                                                          copied_elements[index].getPeopleNr() + 1,
-                                                         copied_elements[index].getLink())) {
-                    this->admin_service.incdecPeople(copied_elements[index].getTitle(), 1);
+                                                    copied_elements[index].getLink(), "user")) {
+
+                    this->service.incdecPeople(copied_elements[index].getTitle(), 1, "admin");
                     std::cout << "Event saved succesfully.\n";
-                } else std::cout << "The event is already in your list.\n";
+                }
+                else
+                    std::cout << "The event is already in your list.\n";
 
             }
             if (index < events_length - 1)
@@ -282,7 +285,7 @@ void UI::listUI() {
             break;
     }
     // if the events-length
-    if(events_length != this->admin_service.getRepo().getRepoSize()){
+    if(events_length != this->service.getRepo("admin").getRepoSize()){
         delete[] copied_elements;
     }
 }

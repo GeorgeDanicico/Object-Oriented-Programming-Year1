@@ -32,7 +32,27 @@ void test_date(){
     }
     catch(std::exception& e){}
 
+    Date data2{20, 21, 12, 11, 2020};
+    Date data3{20, 21, 12, 12, 2020};
+
+    assert(data3 < data2 == false);
+    assert(data2 < data3 == true);
     assert((data < data1) == true);
+
+    Date data4{20, 21, 11, 12, 2020};
+    Date data5{20, 21, 12, 12, 2020};
+    assert(data4 < data5 == true);
+    assert(data5 < data4 == false);
+
+    Date data6{20, 20, 12, 12, 2020};
+    Date data7{20, 21, 12, 12, 2020};
+    assert(data6 < data7 == true);
+    assert(data7 < data6 == false);
+
+    Date data8{19, 21, 12, 12, 2020};
+    Date data9{20, 21, 12, 12, 2020};
+    assert(data8 < data9 == true);
+    assert(data9 < data8 == false);
     std::cout<<"Testing Date successfully!\n";
 }
 
@@ -73,11 +93,12 @@ void test_DA() {
 
 	DynamicVector<TElem> b;
 
+
 	assert(dynamicArray.size() == 0);
 	assert(dynamicArray.getCapacity() == 2);
 
     dynamicArray.add(element1);
-
+    b = dynamicArray;
 	assert(dynamicArray.size() == 1);
 	TElem element2{"Your title", "beautiful", data, 190, "www.prost.com"};
 	TElem element3{"Your title", "beautiful", data, 190, "www.prost.com"};
@@ -97,14 +118,13 @@ void test_DA() {
 	assert(dynamicArray.size() == 3);
 	assert(dynamicArray[1].getTitle() == "MY TITLE");
 
-	TElem* da2 = dynamicArray.getElements();
-
     std::cout<<"Testing Dynamic Vector successfully!\n";
 }
 
 void test_repo() {
     std::string file = "../events.out";
-    DynamicVector<TElem> dV, dV2;
+    std::string file2 = "";
+    DynamicVector<TElem> dV, dV2, dV3;
 	Repository repo{dV, file};
     Repository repo3{dV2, ""};
 
@@ -120,6 +140,8 @@ void test_repo() {
 	TElem element5{"My Title", "beautiful", data, 190, "www.prost.com"};
 
 	TElem* elements = repo.getRepoElements();
+
+	Repository repo2{dV2, file};
 
 	repo.addRepoElement(element2);
 	repo.addRepoElement(element3);
@@ -138,7 +160,6 @@ void test_repo() {
     repo3.updateRepoElement(element8, 0);
     repo3.deleteRepoElement(0);
 
-
 	assert(repo.getRepoElement(1).getTitle() == "My Title");
 //
     std::ofstream fout(file);
@@ -149,51 +170,62 @@ void test_repo() {
 
 void test_service(){
     std::string file;
-
+    std::string file2;
     DynamicVector<TElem> dV, dV2;
     Repository repo{dV, file};
-    Service new_service{repo};
+    Repository repo2{dV2, file2};
+    Service new_service{repo, repo2};
     Date date{12,12,12,12,2021};
-    new_service.addServiceElement("My title", "Description", date, 20, "link");
-    assert (new_service.addServiceElement("My title", "Description", date, 20, "link") == false);
+
+    Service copy = new_service;
+
+    new_service.addServiceElement("My title", "Description", date, 20, "link", "admin");
+    assert (new_service.addServiceElement("My title", "Description", date, 20, "link", "admin") == false);
     Date date1{12,12,12,12,2026};
     Date date2{12,12,12,12,2024};
     Date date3{12,12,12,12,2023};
-    new_service.addServiceElement("My title 1", "Description", date1, 20, "link");
-    new_service.addServiceElement("My title 2", "Description", date2, 20, "link");
-    new_service.addServiceElement("My title 3", "Description", date3, 20, "link");
+    new_service.addServiceElement("My title 1", "Description", date1, 20, "link", "admin");
+    new_service.addServiceElement("My title 2", "Description", date2, 20, "link", "admin");
+    new_service.addServiceElement("My title 3", "Description", date3, 20, "link", "admin");
+
 
     int length = 0;
-    TElem* new_list = new_service.filterEvents("12", length);
+    TElem* new_list = new_service.filterEvents("12", length, "admin");
     assert(length == 4);
 
     try{
-        new_list = new_service.filterEvents("aa", length);
+        new_list = new_service.filterEvents("aa", length, "admin");
     }
     catch(std::exception& e){}
 
-    new_service.incdecPeople("My title 2", 1);
-    assert(new_service.incdecPeople("ma iubesti", 1) == false);
-    assert(new_service.updateServiceElement("My title 3", "people", date2, 330) == true);
-    assert(new_service.updateServiceElement("My title 3", "date", date2, 330) == true);
-    assert(new_service.updateServiceElement("My title 331231321", "date", date2, 330) == false);
+    new_service.incdecPeople("My title 2", 1, "admin");
+    assert(new_service.incdecPeople("ma iubesti", 1, "admin") == false);
+    assert(new_service.updateServiceElement("My title 3", "people", date2, 330, "admin") == true);
+    assert(new_service.updateServiceElement("My title 3", "date", date2, 330, "admin") == true);
+    assert(new_service.updateServiceElement("My title 331231321", "date", date2, 330, "admin") == false);
+
+    assert(new_service.addServiceElement("My title 3", "Description", date3, 331, "link", "user") == true);
 
     try{
-        new_service.addServiceElement("", "Description", date, 20, "link");
+        new_service.addServiceElement("", "Description", date, 20, "link", "admin");
 
     }catch(std::exception& e){}
 
-    assert(new_service.getRepo().getRepoSize() == 4);
+    assert(new_service.getRepo("admin").getRepoSize() == 4);
 
-    TElem* elem2 = new_service.seeAllEvents();
+    assert(new_service.updateServiceElement("My title 3", "people", date1, 230, "admin") == true);
+
+    TElem* elem2 = new_service.seeAllEvents("admin");
+    elem2 = new_service.seeAllEvents("user");
     TElem* elem = new_service.sortChronologically(new_list, 4);
     delete[] new_list;
-    new_service.deleteServiceElement("My title");
-    assert(new_service.getRepo().getRepoSize() != 4);
-    assert(new_service.deleteServiceElement("My title") == false);
-    Service service2{repo};
-    new_service.clear(service2);
-    assert(new_service.getRepo().getRepoSize()== 0);
+    new_service.deleteServiceElement("My title", "admin");
+    new_service.deleteServiceElement("My title 3", "admin");
+
+    assert(new_service.getRepo("admin").getRepoSize() != 4);
+    assert(new_service.deleteServiceElement("My title", "admin") == false);
+    Service service2{repo, repo2};
+    new_service.clear(service2, "admin");
     std::cout << "Testing Service successfully!\n";
 }
 
