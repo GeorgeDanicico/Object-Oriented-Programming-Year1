@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/Repo.h
+domain.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/domain.h
+vector
+-
+
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/Service.cpp
+Service.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/Service.h
+algorithm
+-
+
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/Service.h
+Repo.h
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/Repo.h
+
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/t1-GeorgeDanicico/domain.h
+string
+-
+iostream
+-
+
