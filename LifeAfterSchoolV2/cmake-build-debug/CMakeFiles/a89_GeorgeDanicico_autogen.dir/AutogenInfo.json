@@ -1,0 +1,170 @@
+{
+	"BUILD_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_SOURCE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Exception.h",
+			"MU",
+			"XIDS3KJIUJ/moc_Exception.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/GUI.h",
+			"MU",
+			"XIDS3KJIUJ/moc_GUI.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/LifeAfterSchool.h",
+			"MU",
+			"XIDS3KJIUJ/moc_LifeAfterSchool.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Repository/database_repo.h",
+			"MU",
+			"IIHWPZRCFV/moc_database_repo.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Repository/file_repo.h",
+			"MU",
+			"IIHWPZRCFV/moc_file_repo.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Repository/repo.h",
+			"MU",
+			"IIHWPZRCFV/moc_repo.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Service/service.h",
+			"MU",
+			"NV276QRGMQ/moc_service.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Store/store.h",
+			"MU",
+			"QCS5PSSZML/moc_store.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Store/store_csv.h",
+			"MU",
+			"QCS5PSSZML/moc_store_csv.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Store/store_html.h",
+			"MU",
+			"QCS5PSSZML/moc_store_html.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/domain/date.h",
+			"MU",
+			"NCGRFGSPLE/moc_date.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/domain/domain.h",
+			"MU",
+			"NCGRFGSPLE/moc_domain.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/tests.h",
+			"MU",
+			"XIDS3KJIUJ/moc_tests.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/5.15.2/mingw81_64/include",
+		"C:/Qt/5.15.2/mingw81_64/include/QtCore",
+		"C:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"C:/Qt/5.15.2/mingw81_64/include/QtGui",
+		"C:/Qt/5.15.2/mingw81_64/include/QtANGLE",
+		"C:/Qt/5.15.2/mingw81_64/include/QtWidgets",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include-fixed",
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/i686-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/GUI.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/LifeAfterSchool.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Service/service.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Store/store_csv.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/Store/store_html.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/domain/date.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/domain/domain.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/main.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/tests.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

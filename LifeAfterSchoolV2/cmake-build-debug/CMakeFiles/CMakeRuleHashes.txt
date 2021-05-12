@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+b1f3a372b6c6ab9dbda4a2ae562e0752 CMakeFiles/a89_GeorgeDanicico_autogen
+a830e5fc8b7e730bcaeda7f03756fc86 a89_GeorgeDanicico_autogen/XIDS3KJIUJ/qrc_LifeAfterSchool.cpp

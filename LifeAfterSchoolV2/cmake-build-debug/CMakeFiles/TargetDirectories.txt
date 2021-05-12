@@ -1,0 +1,4 @@
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico_autogen.dir

@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico",
+	"CMAKE_SOURCE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico",
+	"INCLUDE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/a89_GeorgeDanicico_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico_autogen.dir/AutoRcc_LifeAfterSchool_XIDS3KJIUJ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "LifeAfterSchool" ],
+	"OUTPUT_CHECKSUM" : "XIDS3KJIUJ",
+	"OUTPUT_NAME" : "qrc_LifeAfterSchool.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/cmake-build-debug/CMakeFiles/a89_GeorgeDanicico_autogen.dir/AutoRcc_LifeAfterSchool_XIDS3KJIUJ_Used.txt",
+	"SOURCE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/a89-GeorgeDanicico/LifeAfterSchool/LifeAfterSchool.qrc",
+	"VERBOSITY" : 0
+}
