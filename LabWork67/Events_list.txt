@@ -1,0 +1,17 @@
+Russian roullete;The lucky one survives;12/10/10/10/2020;226;www.russia.com
+Games Night;A very beautiful night with games;10/30/12/11/2020;230;www.link.com
+Help Day;Help the kids!;12/10/10/10/2020;123;www.link.com
+Beer pong;Try to win the game!;14/30/10/10/2020;2000;www.link.com
+PS4 Tournament;The best player wins!;12/30/30/12/2020;210;www.link.com
+XBOX Tournament;The best player wins!;12/12/12/12/2020;635;www.link.com
+TwitchCon;A playful event;12/30/19/2/2021;130;www.link.com
+Agar.io;Snake catching!;12/30/7/7/2020;238;www.link.com
+Honey Bees;Help the bees;20/21/3/11/2022;9023;www.honey.com
+Movie Night;Watch the movie you want with your friends;20/30/21/12/2021;1234;www.movie.com
+Programming Contest;12 problems challenge;12/30/2/2/2020;251;www.pbinfo.ro
+Badminton;Tournament today;12/12/12/12/2020;1200;www.tennis.com
+AMD Ryzen;Best processors ever;12/30/20/9/2020;29418;www.amd.com
+Asus Reveal;Many asus things;18/30/15/8/2021;1000;www.asus.com
+Lenovo;Presentation;12/12/12/12/2020;1000;www.lenovo.com
+Football;Come and play;12/12/12/12/2021;1230;www.fotball.com
+Ed Sheeran;Concert;15/30/10/10/2021;25000;www.eddy.com

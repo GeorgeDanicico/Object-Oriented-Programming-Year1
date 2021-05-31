@@ -1,0 +1,5 @@
+AMD Ryzen;Best processors ever;12/30/20/9/2020;29418;www.amd.com
+Lenovo;Presentation;12/12/12/12/2020;1000;www.lenovo.com
+XBOX Tournament;The best player wins!;12/12/12/12/2020;635;www.link.com
+Honey Bees;Help the bees;20/21/3/11/2022;9024;www.honey.com
+Programming Contest;12 problems challenge;12/30/2/2/2020;251;www.pbinfo.ro

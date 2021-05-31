@@ -1,0 +1,16 @@
+﻿  moc LifeAfterSchool.h
+  date.cpp
+  domain.cpp
+  GUI.cpp
+  service.cpp
+  store_csv.cpp
+  store_html.cpp
+  tests.cpp
+  LifeAfterSchool.cpp
+  main.cpp
+  qrc_LifeAfterSchool.cpp
+  moc_LifeAfterSchool.cpp
+GUI.obj : error LNK2001: unresolved external symbol "public: virtual struct QMetaObject const * __cdecl GUI::metaObject(void)const " (?metaObject@GUI@@UEBAPEBUQMetaObject@@XZ)
+GUI.obj : error LNK2001: unresolved external symbol "public: virtual void * __cdecl GUI::qt_metacast(char const *)" (?qt_metacast@GUI@@UEAAPEAXPEBD@Z)
+GUI.obj : error LNK2001: unresolved external symbol "public: virtual int __cdecl GUI::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@GUI@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\a89-GeorgeDanicico\x64\Debug\LifeAfterSchool.exe : fatal error LNK1120: 3 unresolved externals
