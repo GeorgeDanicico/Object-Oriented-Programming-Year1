@@ -1,0 +1,4 @@
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug-qt-run/CMakeFiles/edit_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug-qt-run/CMakeFiles/PracticalExamProject.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug-qt-run/CMakeFiles/rebuild_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug-qt-run/CMakeFiles/PracticalExamProject_autogen.dir
