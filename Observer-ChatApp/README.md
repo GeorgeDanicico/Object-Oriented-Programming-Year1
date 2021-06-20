@@ -1,3 +1,1 @@
-# Object-Oriented-Programming-Year1
-
-My own work during the OOP Course in the first year.
+# Implementing a Chat App using the observer pattern that respects the following diagram
