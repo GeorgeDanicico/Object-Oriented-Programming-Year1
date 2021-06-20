@@ -1,0 +1,4 @@
+John;0;1
+Arthur;1;2
+Marian;1;1
+Albert;0;0

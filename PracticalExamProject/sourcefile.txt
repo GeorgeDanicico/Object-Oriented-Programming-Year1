@@ -1,0 +1,4 @@
+info;revised;Arthur;Arthur
+script;not revised;John;
+myria;not revised;Albert;
+boyata;revised;John;Marian

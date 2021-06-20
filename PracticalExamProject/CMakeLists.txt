@@ -12,5 +12,15 @@ set(REQUIRED_LIBS_QUALIFIED Qt5::Core Qt5::Gui Qt5::Widgets)
 find_package(Qt5Widgets)
 find_package(Qt5Charts)
 
-add_executable(PracticalExamProject main.cpp)
+add_executable(PracticalExamProject main.cpp
+        domain.h
+        Repo.h
+        Repo.cpp
+        Service.h
+        Service.cpp
+        ProgWindow.cpp
+        ProgWindow.h
+        Table.cpp
+        Table.h
+        Observer.h)
 target_link_libraries(PracticalExamProject Qt5::Widgets Qt5::Charts)

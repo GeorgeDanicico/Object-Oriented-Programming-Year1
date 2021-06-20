@@ -182,6 +182,114 @@ PracticalExamProject_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/PracticalExamProject_autogen/mocs_compilation.cpp.s
 .PHONY : PracticalExamProject_autogen/mocs_compilation.cpp.s
 
+ProgWindow.obj: ProgWindow.cpp.obj
+
+.PHONY : ProgWindow.obj
+
+# target to build an object file
+ProgWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj
+.PHONY : ProgWindow.cpp.obj
+
+ProgWindow.i: ProgWindow.cpp.i
+
+.PHONY : ProgWindow.i
+
+# target to preprocess a source file
+ProgWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.i
+.PHONY : ProgWindow.cpp.i
+
+ProgWindow.s: ProgWindow.cpp.s
+
+.PHONY : ProgWindow.s
+
+# target to generate assembly for a file
+ProgWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.s
+.PHONY : ProgWindow.cpp.s
+
+Repo.obj: Repo.cpp.obj
+
+.PHONY : Repo.obj
+
+# target to build an object file
+Repo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj
+.PHONY : Repo.cpp.obj
+
+Repo.i: Repo.cpp.i
+
+.PHONY : Repo.i
+
+# target to preprocess a source file
+Repo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Repo.cpp.i
+.PHONY : Repo.cpp.i
+
+Repo.s: Repo.cpp.s
+
+.PHONY : Repo.s
+
+# target to generate assembly for a file
+Repo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Repo.cpp.s
+.PHONY : Repo.cpp.s
+
+Service.obj: Service.cpp.obj
+
+.PHONY : Service.obj
+
+# target to build an object file
+Service.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Service.cpp.obj
+.PHONY : Service.cpp.obj
+
+Service.i: Service.cpp.i
+
+.PHONY : Service.i
+
+# target to preprocess a source file
+Service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Service.cpp.i
+.PHONY : Service.cpp.i
+
+Service.s: Service.cpp.s
+
+.PHONY : Service.s
+
+# target to generate assembly for a file
+Service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Service.cpp.s
+.PHONY : Service.cpp.s
+
+Table.obj: Table.cpp.obj
+
+.PHONY : Table.obj
+
+# target to build an object file
+Table.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Table.cpp.obj
+.PHONY : Table.cpp.obj
+
+Table.i: Table.cpp.i
+
+.PHONY : Table.i
+
+# target to preprocess a source file
+Table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Table.cpp.i
+.PHONY : Table.cpp.i
+
+Table.s: Table.cpp.s
+
+.PHONY : Table.s
+
+# target to generate assembly for a file
+Table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Table.cpp.s
+.PHONY : Table.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -222,6 +330,18 @@ help:
 	@echo ... PracticalExamProject_autogen/mocs_compilation.obj
 	@echo ... PracticalExamProject_autogen/mocs_compilation.i
 	@echo ... PracticalExamProject_autogen/mocs_compilation.s
+	@echo ... ProgWindow.obj
+	@echo ... ProgWindow.i
+	@echo ... ProgWindow.s
+	@echo ... Repo.obj
+	@echo ... Repo.i
+	@echo ... Repo.s
+	@echo ... Service.obj
+	@echo ... Service.i
+	@echo ... Service.s
+	@echo ... Table.obj
+	@echo ... Table.i
+	@echo ... Table.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

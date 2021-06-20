@@ -104,16 +104,80 @@ CMakeFiles/PracticalExamProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticalExamProject.dir/main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\main.cpp -o CMakeFiles\PracticalExamProject.dir\main.cpp.s
 
+CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj: CMakeFiles/PracticalExamProject.dir/flags.make
+CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj: CMakeFiles/PracticalExamProject.dir/includes_CXX.rsp
+CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj: ../Repo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PracticalExamProject.dir\Repo.cpp.obj -c C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Repo.cpp
+
+CMakeFiles/PracticalExamProject.dir/Repo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticalExamProject.dir/Repo.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Repo.cpp > CMakeFiles\PracticalExamProject.dir\Repo.cpp.i
+
+CMakeFiles/PracticalExamProject.dir/Repo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticalExamProject.dir/Repo.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Repo.cpp -o CMakeFiles\PracticalExamProject.dir\Repo.cpp.s
+
+CMakeFiles/PracticalExamProject.dir/Service.cpp.obj: CMakeFiles/PracticalExamProject.dir/flags.make
+CMakeFiles/PracticalExamProject.dir/Service.cpp.obj: CMakeFiles/PracticalExamProject.dir/includes_CXX.rsp
+CMakeFiles/PracticalExamProject.dir/Service.cpp.obj: ../Service.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PracticalExamProject.dir/Service.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PracticalExamProject.dir\Service.cpp.obj -c C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Service.cpp
+
+CMakeFiles/PracticalExamProject.dir/Service.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticalExamProject.dir/Service.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Service.cpp > CMakeFiles\PracticalExamProject.dir\Service.cpp.i
+
+CMakeFiles/PracticalExamProject.dir/Service.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticalExamProject.dir/Service.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Service.cpp -o CMakeFiles\PracticalExamProject.dir\Service.cpp.s
+
+CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj: CMakeFiles/PracticalExamProject.dir/flags.make
+CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj: CMakeFiles/PracticalExamProject.dir/includes_CXX.rsp
+CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj: ../ProgWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PracticalExamProject.dir\ProgWindow.cpp.obj -c C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\ProgWindow.cpp
+
+CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\ProgWindow.cpp > CMakeFiles\PracticalExamProject.dir\ProgWindow.cpp.i
+
+CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\ProgWindow.cpp -o CMakeFiles\PracticalExamProject.dir\ProgWindow.cpp.s
+
+CMakeFiles/PracticalExamProject.dir/Table.cpp.obj: CMakeFiles/PracticalExamProject.dir/flags.make
+CMakeFiles/PracticalExamProject.dir/Table.cpp.obj: CMakeFiles/PracticalExamProject.dir/includes_CXX.rsp
+CMakeFiles/PracticalExamProject.dir/Table.cpp.obj: ../Table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PracticalExamProject.dir/Table.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PracticalExamProject.dir\Table.cpp.obj -c C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Table.cpp
+
+CMakeFiles/PracticalExamProject.dir/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticalExamProject.dir/Table.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Table.cpp > CMakeFiles\PracticalExamProject.dir\Table.cpp.i
+
+CMakeFiles/PracticalExamProject.dir/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticalExamProject.dir/Table.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\Table.cpp -o CMakeFiles\PracticalExamProject.dir\Table.cpp.s
+
 # Object files for target PracticalExamProject
 PracticalExamProject_OBJECTS = \
 "CMakeFiles/PracticalExamProject.dir/PracticalExamProject_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/PracticalExamProject.dir/main.cpp.obj"
+"CMakeFiles/PracticalExamProject.dir/main.cpp.obj" \
+"CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj" \
+"CMakeFiles/PracticalExamProject.dir/Service.cpp.obj" \
+"CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj" \
+"CMakeFiles/PracticalExamProject.dir/Table.cpp.obj"
 
 # External object files for target PracticalExamProject
 PracticalExamProject_EXTERNAL_OBJECTS =
 
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/PracticalExamProject_autogen/mocs_compilation.cpp.obj
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/main.cpp.obj
+PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj
+PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/Service.cpp.obj
+PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj
+PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/Table.cpp.obj
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/build.make
 PracticalExamProject.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Charts.a
 PracticalExamProject.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
@@ -122,7 +186,7 @@ PracticalExamProject.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/linklibs.rsp
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/objects1.rsp
 PracticalExamProject.exe: CMakeFiles/PracticalExamProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PracticalExamProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\Object-Oriented-Programming-Year1\PracticalExamProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PracticalExamProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PracticalExamProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

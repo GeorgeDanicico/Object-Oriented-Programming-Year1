@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/PracticalExamProject_autogen/mocs_compilation.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/PracticalExamProject_autogen/mocs_compilation.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/ProgWindow.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Repo.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/Service.cpp.obj"
+  "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/Table.cpp.obj"
   "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/main.cpp" "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

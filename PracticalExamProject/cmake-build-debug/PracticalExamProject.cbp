@@ -114,7 +114,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Observer.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/ProgWindow.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/ProgWindow.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Repo.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Repo.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/PracticalExamProject_autogen/mocs_compilation.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/domain.h">
 			<Option target="PracticalExamProject"/>
 		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/main.cpp">

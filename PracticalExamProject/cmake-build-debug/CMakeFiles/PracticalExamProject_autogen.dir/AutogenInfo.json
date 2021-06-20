@@ -7,7 +7,39 @@
 	"CMAKE_SOURCE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Observer.h",
+			"MU",
+			"EWIEGA46WW/moc_Observer.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/ProgWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_ProgWindow.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Repo.h",
+			"MU",
+			"EWIEGA46WW/moc_Repo.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.h",
+			"MU",
+			"EWIEGA46WW/moc_Service.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.h",
+			"MU",
+			"EWIEGA46WW/moc_Table.cpp"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/domain.h",
+			"MU",
+			"EWIEGA46WW/moc_domain.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/PracticalExamProject_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/PracticalExamProject_autogen/mocs_compilation.cpp",
@@ -59,6 +91,22 @@
 	"SETTINGS_FILE" : "C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/cmake-build-debug/CMakeFiles/PracticalExamProject_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/ProgWindow.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Repo.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.cpp",
+			"MU"
+		],
 		[
 			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/main.cpp",
 			"MU"
