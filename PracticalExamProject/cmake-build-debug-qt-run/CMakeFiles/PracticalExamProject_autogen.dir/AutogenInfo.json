@@ -30,6 +30,11 @@
 			"EWIEGA46WW/moc_Service.cpp"
 		],
 		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Statistics.h",
+			"MU",
+			"EWIEGA46WW/moc_Statistics.cpp"
+		],
+		[
 			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.h",
 			"MU",
 			"EWIEGA46WW/moc_Table.cpp"
@@ -101,6 +106,10 @@
 		],
 		[
 			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Statistics.cpp",
 			"MU"
 		],
 		[

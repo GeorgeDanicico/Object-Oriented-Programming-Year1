@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PracticalExamProject.dir/ProgWindow.cpp.obj"
   "CMakeFiles/PracticalExamProject.dir/Repo.cpp.obj"
   "CMakeFiles/PracticalExamProject.dir/Service.cpp.obj"
+  "CMakeFiles/PracticalExamProject.dir/Statistics.cpp.obj"
   "CMakeFiles/PracticalExamProject.dir/Table.cpp.obj"
   "CMakeFiles/PracticalExamProject.dir/main.cpp.obj"
   "PracticalExamProject.exe"

@@ -135,6 +135,12 @@
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Service.h">
 			<Option target="PracticalExamProject"/>
 		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Statistics.cpp">
+			<Option target="PracticalExamProject"/>
+		</Unit>
+		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Statistics.h">
+			<Option target="PracticalExamProject"/>
+		</Unit>
 		<Unit filename="C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExamProject/Table.cpp">
 			<Option target="PracticalExamProject"/>
 		</Unit>

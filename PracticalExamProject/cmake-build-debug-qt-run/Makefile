@@ -263,6 +263,33 @@ Service.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Service.cpp.s
 .PHONY : Service.cpp.s
 
+Statistics.obj: Statistics.cpp.obj
+
+.PHONY : Statistics.obj
+
+# target to build an object file
+Statistics.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Statistics.cpp.obj
+.PHONY : Statistics.cpp.obj
+
+Statistics.i: Statistics.cpp.i
+
+.PHONY : Statistics.i
+
+# target to preprocess a source file
+Statistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Statistics.cpp.i
+.PHONY : Statistics.cpp.i
+
+Statistics.s: Statistics.cpp.s
+
+.PHONY : Statistics.s
+
+# target to generate assembly for a file
+Statistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PracticalExamProject.dir\build.make CMakeFiles/PracticalExamProject.dir/Statistics.cpp.s
+.PHONY : Statistics.cpp.s
+
 Table.obj: Table.cpp.obj
 
 .PHONY : Table.obj
@@ -339,6 +366,9 @@ help:
 	@echo ... Service.obj
 	@echo ... Service.i
 	@echo ... Service.s
+	@echo ... Statistics.obj
+	@echo ... Statistics.i
+	@echo ... Statistics.s
 	@echo ... Table.obj
 	@echo ... Table.i
 	@echo ... Table.s

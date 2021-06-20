@@ -1,6 +1,7 @@
 #include <QtWidgets/QApplication>
 #include "ProgWindow.h"
 #include "Table.h"
+#include "Statistics.h"
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
@@ -15,6 +16,8 @@ int main(int argc, char *argv[]) {
         serv.addObserver(p);
         p->show();
     }
+    Statistics stats{serv};
+    serv.addObserver(&stats);
 
     return a.exec();
 }

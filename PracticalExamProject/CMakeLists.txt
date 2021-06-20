@@ -22,5 +22,7 @@ add_executable(PracticalExamProject main.cpp
         ProgWindow.h
         Table.cpp
         Table.h
-        Observer.h)
+        Observer.h
+        Statistics.cpp
+        Statistics.h)
 target_link_libraries(PracticalExamProject Qt5::Widgets Qt5::Charts)
