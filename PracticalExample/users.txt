@@ -1,0 +1,5 @@
+Arthur;programmer
+Sergiu;tester
+Ludovic;tester
+Serban;programmer
+Andrew;tester

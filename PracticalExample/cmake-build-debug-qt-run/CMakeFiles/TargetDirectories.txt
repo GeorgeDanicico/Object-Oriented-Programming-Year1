@@ -1,0 +1,4 @@
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExample/cmake-build-debug-qt-run/CMakeFiles/PracticalExample.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExample/cmake-build-debug-qt-run/CMakeFiles/edit_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExample/cmake-build-debug-qt-run/CMakeFiles/rebuild_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/PracticalExample/cmake-build-debug-qt-run/CMakeFiles/PracticalExample_autogen.dir

@@ -1,0 +1,7 @@
+fatal;open;Sergiu;
+incorect;open;Ludovic;
+AIerror;closed;Ludovic;Serban
+support;closed;Sergiu;Arthur
+kinect;open;Andrew;
+mvc;open;Andrew;
+mvc1;open;Andrew;

@@ -10,17 +10,15 @@ void Statistics::init() {
     picture = new QPicture{};
     painter = new QPainter{picture};
     painter->setRenderHint(QPainter::Antialiasing);
-    int x = 0, y = 100;
-    for(auto& p : prog){
+    int x = 0, y = 0;
+    for(auto p : prog){
         if(p.getMust() <= p.getRevised()){
             painter->setPen(Qt::blue);
         }
         else painter->setPen(Qt::red);
 
-        painter->drawEllipse(QPoint(x, y), p.getRevised()*30, p.getRevised()*30);
+        painter->drawEllipse(QPoint(x, y), (p.getRevised() + 1)*30, (p.getRevised() + 1)*30);
         painter->drawText(QPoint(x, y + p.getRevised()*30 + 5), QString::fromStdString(p.getName()));
-
-        y = y - 100;
     }
 
     painter->end();
