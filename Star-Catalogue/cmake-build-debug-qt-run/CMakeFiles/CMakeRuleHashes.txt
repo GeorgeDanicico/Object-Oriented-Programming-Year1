@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+2ec20a4176e6626cc57aacdb2dc107de CMakeFiles/Star_Catalogue_autogen

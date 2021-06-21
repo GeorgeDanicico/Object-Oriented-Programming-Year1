@@ -1,0 +1,4 @@
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/Star-Catalogue/cmake-build-debug/CMakeFiles/Star_Catalogue.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/Star-Catalogue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/Star-Catalogue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/georg/OneDrive/Desktop/Informatica/Facultate/Object-Oriented-Programming-Year1/Star-Catalogue/cmake-build-debug/CMakeFiles/Star_Catalogue_autogen.dir
