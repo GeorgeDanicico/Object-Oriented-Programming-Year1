@@ -1,0 +1,2 @@
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\t3-GeorgeDanicico\testweek13\x64\Debug\testweek13.exe
+C:\Users\georg\OneDrive\Desktop\Informatica\Facultate\t3-GeorgeDanicico\testweek13\x64\Debug\testweek13.pdb
