@@ -1,0 +1,3 @@
+/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/CMakeFiles/a67_GeorgeDanicico.dir

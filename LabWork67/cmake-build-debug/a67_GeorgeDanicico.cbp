@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="a67_GeorgeDanicico"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a67_GeorgeDanicico">
+				<Option output="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/a67_GeorgeDanicico" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 a67_GeorgeDanicico"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="a67_GeorgeDanicico/fast">
+				<Option output="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/a67_GeorgeDanicico" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 a67_GeorgeDanicico/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/sqlite/sqlite3.c">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/sqlite/sqlite3.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/sqlite/sqlite3ext.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Exception.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Interface/ui.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Interface/ui.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Repository/database_repo.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Repository/file_repo.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Repository/repo.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Service/service.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Service/service.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Store/store.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Store/store_csv.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Store/store_csv.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Store/store_html.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/Store/store_html.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/domain/date.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/domain/date.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/domain/domain.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/domain/domain.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/main.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/tests.cpp">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/src/tests.h">
+			<Option target="a67_GeorgeDanicico"/>
+		</Unit>
+		<Unit filename="/home/george/Work/Object-Oriented-Programming-Year1/LabWork67/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
