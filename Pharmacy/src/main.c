@@ -18,10 +18,10 @@ int main() {
     destroyUI(ui);
     
     if (!_CrtDumpMemoryLeaks()) {
-        printf("\nCongratulation, no memory leaks!\n");
+        printf("\nCongratulation, You have no memory leaks!\n");
     }
     else {
-        printf("\nOoopsie, there are some leaks.\n");
+        printf("\nOoopsie, There are some leaks, brother...\n");
     }
    
 
